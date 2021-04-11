@@ -15,11 +15,11 @@
 
   <div id="topnav">
 
-  <a href="#about" class="basic"> Personal Profile </a>
-  <a href="#favs" class="favourites"> Favourites </a>
-  <a href="#hobbies" class="hobby"> Hobbies & Interest</a>
-  <a href="#guess" class="guessing"> Two truths and a lie <!-- probably wanna add a cheeky emoji--> </a>
-  <a href="#contact" class="conform"> Get in touch </a>
+  <a href="#about" name="about"> Personal Profile </a>
+  <a href="#favs" name="fav"> Favourites </a>
+  <a href="#hobbies" name="hobbies"> Hobbies & Interest</a>
+  <a href="#guess" name="guess"> Two truths and a lie <!-- probably wanna add a cheeky emoji--> </a>
+  <a href="#contact" name="contact"> Get in touch </a>
 
   </div>
   
@@ -27,7 +27,7 @@
 
 <div>
 
-<section class="about">
+<section id="about">
   <h2>Personal Profile</h2>
   <div class="intro">
     <img src="picnat.jpg" alt="Pic of Natalie" class="intro_img">
@@ -46,7 +46,7 @@
   </div>
   </section>
 
-  <section class="favs">
+  <section id="favs">
   <h2> Favourites </h2> <!-- less text and more sort of interactive design, picture that flips around to the facts -->
   <div class="box">
     <img src="pizza.jpeg" alt="food" class="fav_image">
@@ -76,14 +76,13 @@
 
   <!--Playlist to listen to whilst coding: [https://open.spotify.com/playlist/597avdsU0EaVNEMrvKB2Cc?si=1ri-R_x9R8uiF3E9PC5QNg] wanna play while visiting the website-->
 
-  <section class="hobbies">
+  <section id="hobbies">
 
    <h2> Hobbies & Interests </h2> <!-- again a more interactive design with no so much text, thinking on incorporating audio files-->
-   <p> I do yoga most days, and when the gyms are open, I enjoy weightlifting at Black Country Barbell.
-    Gaming – currently punishing myself by playing a lot of Warzone.
-    Music – collecting vinyls and playing piano, when I have the time!
-    Sport - I'm an Aston Villa fan, and also follow F1 and NFL.
-    Making - I like to learn crafts such as sewing and knitting, but also digital making using my Raspberry Pi. </p>
+   <p> I do yoga most days, and when the gyms are open, I enjoy weightlifting at Black Country Barbell. I'm currently punishing myself by playing a lot of Warzone.
+       I enjoy collecting vinyls and playing piano, when I have the time! I also like to learn crafts such as sewing and knitting, but also digital making using my Raspberry Pi.
+       I'm an Aston Villa fan, and also follow F1 and NFL.
+     </p>
 
 
    <div class="row">
@@ -118,7 +117,7 @@
    
 </section>
 
-<section class="guess">
+<section id="guess">
 
     <h2>  I dare you to guess! Two truths and a lie <!--wink emoji, need to fix the the boolean that checks if you are right or wrong--> </h2>
     <!-- maybe also incorporate sounds when chosing the right/wrong answer, maybe a pic of her doing so lol-->
@@ -136,7 +135,7 @@
 
  </section>
 
- <section  class="contact">
+ <section  id="contact">
 
    <h2> Get in touch here </h2>
    
